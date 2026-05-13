@@ -1,0 +1,27 @@
+{
+  "website": {
+    "url": "https://ingrails.com/school/client?token=1778559083#learning-questions",
+    "login_url": "https://ingrails.com/school/",
+    "username": "bbvm-kisham",
+    "password": "kisham1"
+  },
+
+  "defaults": {
+    "exam_name": "MCQ Mastery (Multiple Choice Question)",
+    "year": "ACADEMIC-YEAR-2083",
+    "chapter": "Chapter 1",
+    "category": "Basic Academics",
+    "exam_detail": "Exam 1",
+    "type": "Objective",
+    "points": 5,
+    "answer_type": "Text"
+  },
+
+  "automation": {
+    "wait_between_questions": 2,
+    "retry_attempts": 3,
+    "headless_mode": false,
+    "take_screenshots": false,
+    "page_load_timeout": 30
+  }
+}

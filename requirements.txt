@@ -1,0 +1,5 @@
+python-docx>=0.8.11
+selenium>=4.15.0
+webdriver-manager>=4.0.1
+rich>=13.7.0
+colorama>=0.4.6

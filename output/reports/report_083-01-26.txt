@@ -1,0 +1,19 @@
+
+═════════════════════════════════════════════
+       DOCTOEXAM — SUBMISSION REPORT
+═════════════════════════════════════════════
+  Exam    : MCQ Mastery (Multiple Choice Question)
+  Class   : 8
+  Subject : Grammar
+  Date    : 083-01-26
+─────────────────────────────────────────────
+  Total Questions  : 20
+  ✅ Submitted      : 20
+  ⚠️  Submitted*     : 0  (low/medium confidence)
+  ❌ Failed         : 0
+  ⏭️  Skipped        : 0
+─────────────────────────────────────────────
+─────────────────────────────────────────────
+  *Low/medium confidence answers were submitted
+   but should be manually verified.
+═════════════════════════════════════════════
