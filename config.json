@@ -1,9 +1,9 @@
+
+
 {
   "website": {
     "url": "https://ingrails.com/school/client?token=1778559083#learning-questions",
-    "login_url": "https://ingrails.com/school/",
-    "username": "bbvm-kisham",
-    "password": "kisham1"
+    "login_url": "https://ingrails.com/school/"
   },
 
   "defaults": {

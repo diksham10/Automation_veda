@@ -9,6 +9,9 @@ import pickle
 import logging
 from automation.playwright_wrapper import PwWrapper
 from automation import selectors
+from dotenv import load_dotenv
+
+load_dotenv()
 
 log = logging.getLogger("doctoexam")
 
@@ -49,10 +52,10 @@ def login(driver: PwWrapper, config: dict) -> bool:
     try:
         # ⚠️ THE FIX IS HERE: We added .first to avoid the strict mode crash!
         page.locator(selectors.USERNAME_FIELD).first.wait_for(state="visible", timeout=15000)
-        page.locator(selectors.USERNAME_FIELD).first.fill(web_cfg.get("username", ""))
+        page.locator(selectors.USERNAME_FIELD).first.fill(os.getenv("USERNAME", ""))
 
         # Fill password
-        page.locator(selectors.PASSWORD_FIELD).first.fill(web_cfg.get("password", ""))
+        page.locator(selectors.PASSWORD_FIELD).first.fill(os.getenv("PASSWORD", ""))
 
         # Click login
         page.locator(selectors.LOGIN_BUTTON).first.click()
