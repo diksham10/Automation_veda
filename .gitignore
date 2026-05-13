@@ -3,3 +3,8 @@ cookies.pkl
 output/
 __pycache__/
 *.pyc
+.env
+cookies.pkl
+output/
+__pycache__/
+*.pyc
